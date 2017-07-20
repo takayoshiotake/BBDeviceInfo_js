@@ -62,7 +62,7 @@ function BBDeviceInfo() {
 }
 
 // Instant platform check
-BBDeviceInfo.prototype.is_windows = function() { return this.platform == BBDI.P.WINDOWSs }
+BBDeviceInfo.prototype.is_windows = function() { return this.platform == BBDI.P.WINDOWS }
 BBDeviceInfo.prototype.is_macos = function() { return this.platform == BBDI.P.MACOS }
 BBDeviceInfo.prototype.is_ios = function() { return this.platform == BBDI.P.IOS }
 BBDeviceInfo.prototype.is_android = function() { return this.platform == BBDI.P.ANDROID }
